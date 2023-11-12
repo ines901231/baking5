@@ -5,17 +5,17 @@
 
 body {
     font: 18px/36px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #FF9209;
+    background: linear-gradient(to top, #6c55e1, #fff, #fff);
 }
 
 .header {
-    background: #2B3499;
+    background: #fff;
     height: 80px;
     width: 100%;
 }
 
 label.icon {
-    color: #fff;
+    color: #6c55e1;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -43,13 +43,13 @@ label.icon {
 }
 
 a.main, .header ul li a:hover {
-    background: #666;
+    background: #000;
     transition: .3s;
 }
 
 .checkbut {
     font-size: 30px;
-    color: #fff;
+    color: #6c55e1;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -69,10 +69,10 @@ h1 {
 .container {
     width: 400px;
     height: 800px;
-    background-color: #FFD099;
+    background-color: #fff;
     margin: auto;
     padding: 30px;
-    box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+    box-shadow: 0 0 3px 3px rgba(108,85,225,255);
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -86,7 +86,7 @@ img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 5px solid #2B3499;
+    border: 5px solid #6c55e1;
     float: left;
     margin-right: 15px;
     margin-left: 55px;
@@ -134,7 +134,7 @@ img {
 }
 
 .dropdownmenu ul {
-    background-color: #FFD099;
+    background-color: #fff;
     list-style: none;
     width: 100%; 
 }
@@ -149,8 +149,8 @@ img {
 }
 
 .dropdownmenu a {
-    background-color: #FFD099;
-    color: black;
+    background-color: #6c55e1;
+    color: #fff;
     display: block;
     font-weight: bold;
     font-size: 13px;
@@ -163,8 +163,8 @@ img {
 }
 
 .dropdownmenu li:hover a {
-    background-color: #2B3499;
-    color: white;
+    background-color: #fff;
+    color: #000;
 }
 
 #submenu {
@@ -189,11 +189,11 @@ li:hover ul#submenu {
 
 #submenu a:hover {
     background-color: #fff;
-    color: black;
+    color: #6c55e1; 
 }
 
 #submenu a {
-    background-color: #FFD099;
+    background-color: #6c55e1; 
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -209,20 +209,21 @@ li:hover ul#submenu {
 .contact {
     width: 400px;
     height: 600px;
-    background-color: #FFD099;
+    background-color: #fff;
     margin: auto;
     padding: 30px;
-    box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+    box-shadow: 0 0 3px 3px rgba(108,85,225,255);
     border-radius: 5px;
     margin-bottom: 20px;
 }
 
 h2 {
     text-align: center;
+    font-weight: bold;
 }
 
 form {
-    margin: 35px;
+    margin: 40px;
 }
 
 .input {
@@ -231,7 +232,7 @@ form {
     margin-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    border: 1px solid #2B3499;
+    border: 1px solid #6c55e1;
     border-radius: 10px;
     outline: none;
 }
@@ -243,10 +244,10 @@ form {
 
 .btn {
     border-radius: 10px;
-    color: #fff;
+    color: #6c55e1;
     margin-top: 9px;
     padding: 20px;
-    background-color: #2B3499;
+    background-color: #fff;
     font-size: 15px;
     border: none;
     cursor: pointer;
@@ -271,15 +272,15 @@ form {
 }
 
 .btn:hover {
-    background-color: #FFD099;
+    background-color: #fff;
     transition: .2s;
-    color: #000;
+    box-shadow: 5px 5px #6c55e1; 
 }
 
 .footer {
     width: auto;
     height: 30px;
-    background-color: #FF6C22;
+    background-color: #6c55e1;
     text-align: center;
     font-size: 13px;
 }
@@ -300,13 +301,13 @@ form {
 @media only screen and (min-width: 768px) {
 
     .header {
-        background: #2B3499;
+        background: #fff;
         height: 80px;
         width: 100%;
     }
 
     label.icon {
-        color: #fff;
+        color: #6c55e1;
         font-size: 35px;
         line-height: 80px;
         padding: 0 100px;
@@ -325,7 +326,7 @@ form {
     }
 
     .header ul li a {
-        color: #fff;
+        color: #6c55e1;
         font-size: 17px;
         padding: 7px 13px;
         border-radius: 3px;
@@ -333,9 +334,14 @@ form {
         text-decoration: none;
     }
 
+    .header ul li a.main {
+        color: #fff;
+    }
+
     a.main, .header ul li a:hover {
-        background: #666;
+        background: #6c55e1;
         transition: .3s;
+        color: #fff;
     }
 
     .checkbut {
@@ -346,16 +352,15 @@ form {
         font-size: 80px;
         margin: 50px 0;
         text-align: center;
-        text-shadow: 1px 1px 1px white;
     }
 
     .container {
         width: 800px;
         height: 370px;
-        background-color: #FFD099;
+        background-color: #fff;
         margin-bottom: 20px;
         padding: 30px; 
-        box-shadow: 0 3px 0 3px rgba(0,0,0,.3);
+        box-shadow: 0 3px 0 3px rgba(108,85,225,255);
         border-radius: 0 0 5px 5px;
     }
 
@@ -369,7 +374,7 @@ form {
         width: 120px;
         height: 120px;
         border-radius: 50%;
-        border: 5px solid #666;
+        border: 5px solid #6c55e1;
         float: left;
         margin-right: 15px;
         margin-left: 15px;
@@ -410,8 +415,8 @@ form {
     }
 
     .dropdownmenu li:hover a {
-        background-color: #FFD099;
-        color: white;
+        background-color: #fff;
+        color: #6c55e1;
     }
 
     
@@ -436,12 +441,12 @@ form {
     }
     
     #submenu a:hover {
-        background-color: #fff;
-        color: black;
+        background-color: #6c55e1;
+        color: #fff; 
     }
     
     #submenu a {
-        background-color: #FFD099;
+        background-color: #fff;
         width: 40px;
         height: 40px; 
         border-radius: 50px;
@@ -455,10 +460,10 @@ form {
     .contact {
         width: 800px;
         height: 500px;
-        background-color: #FFD099;
+        background-color: #fff;
         margin: auto;
         padding: 30px;
-        box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+        box-shadow: 0 0 3px 3px rgba(108,85,225,255);
         border-radius: 5px 5px 0 0;
     }
 
@@ -469,7 +474,7 @@ form {
         margin-top: 10px;
         padding-left: 5px;
         padding-right: 5px;
-        border: 1px solid #2B3499;
+        border: 1px solid #6c55e1;
         border-radius: 10px;
         outline: none;
     }
@@ -482,7 +487,7 @@ form {
     .footer {
         width: auto;
         height: 50px;
-        background-color: #FF6C22;
+        background-color: #6c55e1;
         text-align: center;
         font-size: 15px;
         display: block;
@@ -491,7 +496,7 @@ form {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 916px) {
     .checkbut{
         display: block;
       }
@@ -499,7 +504,7 @@ form {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #2c3e50;
+        background: #6c55e1;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -515,7 +520,7 @@ form {
       }
       .header ul li a:hover, .header ul li a.main{
         background: none;
-        color: #0082e6;
+        color: #000;
       }
       #check:checked ~ ul{
         left: 0;
