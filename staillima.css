@@ -188,12 +188,12 @@ li:hover ul#submenu {
 }
 
 #submenu a:hover {
-    background-color: #fff;
-    color: #6c55e1; 
+    background-color: #6c55e1;
+    color: #fff; 
 }
 
 #submenu a {
-    background-color: #6c55e1; 
+    background-color: #fff; 
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -204,7 +204,7 @@ li:hover ul#submenu {
     height: 50px;
 }
 
-/*email*/
+/*contact*/
 
 .contact {
     width: 400px;
@@ -297,7 +297,7 @@ form {
 }
 
 
-/*==============  GANTI RESOLUSI  ==============*/
+/*==============  DESKTOP  ==============*/
 @media only screen and (min-width: 768px) {
 
     .header {
@@ -496,6 +496,7 @@ form {
 }
 
 
+/*==============  3 BAR MOBILE DISPLAY  ==============*/
 @media (max-width: 916px) {
     .checkbut{
         display: block;
